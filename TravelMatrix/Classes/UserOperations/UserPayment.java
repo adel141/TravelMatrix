@@ -139,12 +139,12 @@ public class UserPayment extends JFrame implements ActionListener {
             System.exit(0);
         }
         
-        if (e.getSource() == backButton) {
-			new UserDashboard(user);
-            this.dispose();
+        else if (e.getSource() == backButton) {
+		new UserDashboard(user);
+            	this.dispose();
         }
         
-        if (e.getSource() == confirmButton) {
+        else if (e.getSource() == confirmButton) {
             String name = nameField.getText();
             String card = cardField.getText();
             String valid = validField.getText();
