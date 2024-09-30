@@ -1,0 +1,11 @@
+
+#2,Paris Vacation,.\Image\locationPic\Paris.jpg,Duration: 5 Days / 4 Nights Cost: $1200 per person Activities: Eiffel Tower Visit Seine River Cruise Louvre Museum Tour Montmartre Exploration,Flights to Paris from Dhaka,Le Meurice 5 Star,10000.0
+
+
+#3,New York Adventure,.\Image\locationPic\newwork.jpg,Duration: 6 Days / 5 Nights Cost: $1500 per person Activities: Statue of Liberty Tour Central Park Bike Ride Broadway Show Empire State Building Visit,Flights to New York from Dhaka,The Plaza Hotel 5 Star,10000.0
+#4,Tokyo Experience,.\Image\locationPic\tokyo.jpg,Duration: 7 Days / 6 Nights Cost: $1400 per person Activities: Tokyo Tower Visit Sumo Wrestling Show Sushi Making Class Mount Fuji Day Trip,Flights to Tokyo from Dhaka,Park Hyatt Tokyo 5 Star,10000.0
+#5,Sydney Discovery,.\Image\locationPic\Sydney.jpg,Duration: 5 Days / 4 Nights Cost: $1300 per person Activities: Sydney Opera House Tour Bondi Beach Visit Blue Mountains Day Trip Darling Harbour Cruise,Flights to Sydney from Dhaka,Shangri-La Hotel 5 Star,10000.0
+#6,Rome Historical Tour,.\Image\locationPic\rome.jpg,Duration: 6 Days / 5 Nights Cost: $1100 per person Activities: Colosseum Tour Vatican Museums Sistine Chapel Walking Tour Roman Forum Exploration,Flights to Rome from Dhaka,Hotel de Russie 5 Star,10000.0
+#7,London Cultural Journey,.\Image\locationPic\london.jpg,Duration: 7 Days / 6 Nights Cost: $1600 per person Activities: Buckingham Palace Tour Thames River Cruise British Museum Visit London Eye Experience,Flights to London from Dhaka,The Ritz London 5 Star,10000.0
+#89,Barcelona City Adventure,.\Image\locationPic\Barca.jpg,Duration: 7 Days / 6 Nights Cost: $950 per person Activities: Ubud Rice Terrace Tour,Flights to Amsterdam from Dhaka,Pulitzer Amsterdam 5 Star,10000.0
+test,test3,.\Image\locationPic\addadmin2.png,test,test,test,234.0
