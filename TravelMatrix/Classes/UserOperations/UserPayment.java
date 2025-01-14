@@ -129,20 +129,24 @@ public class UserPayment extends JFrame implements ActionListener {
         // Add action listeners
         confirmButton.addActionListener(this);
         exitButton.addActionListener(this);
-        backButton.addActionListener(this);
+        backButton.addActionListener(e -> {
+            if (e.getSource() == backButton) {
+                this.dispose();
+                new UserDashboard(user);
+            }
+        });
+        
     }
     
     @Override
     public void actionPerformed(ActionEvent e) {
         
+
+        
         if (e.getSource() == exitButton) {
             System.exit(0);
         }
         
-        if (e.getSource() == backButton) {
-			new UserDashboard(user);
-            this.dispose();
-        }
         
         if (e.getSource() == confirmButton) {
             String name = nameField.getText();
