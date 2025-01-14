@@ -167,7 +167,7 @@ public class Registration implements ActionListener{
 
 
         loginpageButton = new JButton("<html>Already Have a account? <b><u>Sign In</u></b><html>");
-        loginpageButton.setBounds(800,568,265,20);
+        loginpageButton.setBounds(800,568,285,20);
         loginpageButton.setFont(new  Font("Poppins", Font.PLAIN,15));
         loginpageButton.setOpaque(false);
         loginpageButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
