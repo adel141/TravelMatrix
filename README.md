@@ -70,12 +70,12 @@ This project is for educational purposes only.
 <p>
     
 -------------------------------------------------------------------------
-#for compile: <\br>
+#for compile: <br>
   javac Start.java
 </p>
 <p>
     
-#for run:<\br>
+#for run:<br>
   java Start.java
   
 -------------------------------------------------------------------------
