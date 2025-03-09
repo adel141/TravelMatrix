@@ -71,12 +71,12 @@ This project is for educational purposes only.
     
 -------------------------------------------------------------------------
 #for compile: <br>
-  javac Start.java
+  <b> javac Start.java</b>
 </p>
 <p>
     
 #for run:<br>
-  java Start.java
+  <b> java Start.java </b>
   
 -------------------------------------------------------------------------
 </p>
