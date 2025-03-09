@@ -1,4 +1,4 @@
-**Travel Matrix**
+<p style= "text-align: center; text-color: blue"><b>Travel Matrix</b></p>
 
 _Project Overview_
 
@@ -50,9 +50,7 @@ or
 Ensure you have Java installed (JDK 8 or later).
 Clone the repository or download the source code.
 Open folder in cmd run command
-    >>javac Start.java
-    >>java Start
-
+   <p> >>javac Start.java </p> <p>>>java Start </p>
 
 _Usage_
 
@@ -69,13 +67,24 @@ License
 
 This project is for educational purposes only.
 
-
-#for compile:
+<p>
+    
+-------------------------------------------------------------------------
+#for compile: <\br>
   javac Start.java
-#for run:
+</p>
+<p>
+    
+#for run:<\br>
   java Start.java
+  
+-------------------------------------------------------------------------
+</p>
+<p>
+    
 -------------------------------------------------------------------------
 admin login :
     username: admin
     password: admin
 -------------------------------------------------------------------------
+</p>
