@@ -1,90 +1,102 @@
-<p style= "text-align: center; text-color: blue"><b>Travel Matrix</b></p>
+# TravelMatrix 🚆🧳  
+> Travel Agency Management System – Java Swing + File-Based Storage  
 
-_Project Overview_
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=adel141.TravelMatrix)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/adel141/TravelMatrix)
+![GitHub repo size](https://img.shields.io/github/repo-size/adel141/TravelMatrix)
+![GitHub last commit](https://img.shields.io/github/last-commit/adel141/TravelMatrix)
 
-Travel Matrix is a Java-based travel agency management system developed for the AIUB course OOP1. This project follows Object-Oriented Programming (OOP) principles and provides full CRUD (Create, Read, Update, Delete) operations for managing travel packages and users.
+## 📌 Overview
 
-**Features:**
+**TravelMatrix** is a desktop-based Travel Agency Management System built using **pure Java** and **Java Swing**, storing data in local `.txt` files. It follows **Object-Oriented Programming principles** and offers CRUD operations for managing users and travel packages.
 
-_User Management:_
+> 🎓 Developed as part of the **Object Oriented Programming 1 (OOP1)** course at **American International University-Bangladesh (AIUB)**.
+> 🔹 **University**: American International University-Bangladesh (AIUB)  
+> 🔹 **Course**: Object-Oriented Programming Language I (OOP1)  (JAVA)
+> 🔹 **Semester**: Summer 2023–2024
+> 🔹 **Developer**: Hamed Mohammed Adel (ID: 23-55566-3)
+---
 
-Add, edit, delete, and search users.
-Store user details securely.
+## 🛠 Features
 
-_Travel Package Management:_
+- 🌍 Travel Package Management
+- 👤 User Management System
+- 🔐 Admin Dashboard
+- 👤 User Dashboard
+- 📦 File-based data storage using `.txt` files
+- 🪟 GUI built using Java Swing (AWT/Swing)
+- 🧠 Full use of Java OOP concepts: classes, inheritance, encapsulation, polymorphism
 
-Add, edit, delete, and search travel packages.
-Display packages with images, names, details, transportation, hotel, and cost.
-Graphical User Interface (GUI):
-Developed using Java Swing.
-Scrollable sections for better usability.
+---
 
-_Data Persistence:_
+## 🗃️ Technologies Used
 
-Data is stored in text file (./Data/packagedata.txt),(./Data/userdata.txt).
+- 💻 Language: Java  
+- 🖼️ UI: Java Swing  
+- 📁 Data Storage: Local `.txt` files  
+- 🧰 IDE: NetBeans / IntelliJ IDEA / Eclipse / VS Code
 
-_Object-Oriented Programming Concepts Used_
+---
 
-Encapsulation:
-Data is protected using private attributes and accessed via public methods.
-Abstraction:
-User-friendly interfaces hide complex logic.
-Inheritance:
-Base classes are extended for better code reusability.
-Polymorphism:
-Overloaded and overridden methods enhance flexibility.
 
-_Technologies Used_
+## 📁 Project Structure
 
-Java (JDK 8+)
-Java Swing (for GUI development)
-File handling for data storage
+```plaintext
+/TravelMatrix
+│
+├── src/
+│   ├── User.java
+│   ├── TrPackage.java
+│   ├── AdminPanel.java
+│   └── ...
+├── Data/
+│   ├── userdata.txt
+│   └── packagedata.txt
+├── README.md
+├── LICENSE.txt
+└── ...
 
-_Installation & Setup_
+---
 
-Ensure you have Java installed (JDK 8 or later).
-Clone the repository or download the source code.
-Open the project in an IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans).
-Run the main class to start the application.
-or
-Ensure you have Java installed (JDK 8 or later).
-Clone the repository or download the source code.
-Open folder in cmd run command
-   <p> >>javac Start.java </p> <p>>>java Start </p>
+## 🚀 How to Run
 
-_Usage_
+1. Clone the repo:
+```bash
+git clone https://github.com/adel141/TravelMatrix.git
+```
 
-Launch the application.
-Navigate through the user-friendly interface to manage users and travel packages.
-Perform CRUD operations efficiently.
+2. Open the project in NetBeans or IntelliJ or VS Code
 
-_Author_
+3. Run `Main.java` to start the application
 
-**Hamed Mohammed Adel**
-Developed as part of the AIUB OOP1 course.
+> Make sure the `Data` folder exists and has proper permissions for read/write
 
-License
+---
 
-This project is for educational purposes only.
+## 🧠 Educational Purpose
 
-<p>
-    
--------------------------------------------------------------------------
-#for compile: <br>
-  <b> javac Start.java</b>
-</p>
-<p>
-    
-#for run:<br>
-  <b> java Start.java </b>
-  
--------------------------------------------------------------------------
-</p>
-<p>
-    
--------------------------------------------------------------------------
-admin login :
-    username: admin
-    password: admin
--------------------------------------------------------------------------
-</p>
+This project was developed for educational purposes under **OOP1 at AIUB**. It demonstrates practical implementation of object-oriented concepts including:
+
+- Inheritance and Subclasses
+- File Handling
+- Swing-based GUI Design
+- Interface Implementation
+- Object Oriented Programming
+---
+
+## 📈 SEO Keywords
+
+```
+Java Swing Travel Management System, AIUB OOP Project, Java file I/O project, Travel Agency Java application, OOP1 Java Swing Project, Aiub java project, oop1 project
+```
+
+---
+
+## 📜 License
+
+This project is for academic and learning purposes only.
+
+---
+
+**GitHub Repo**: [TravelMatrix by Hamed Mohammed Adel](https://github.com/adel141/TravelMatrix)
+
