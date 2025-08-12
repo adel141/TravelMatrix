@@ -42,19 +42,93 @@
 ## 📁 Project Structure
 
 ```plaintext
-/TravelMatrix
-│
-├── src/
-│   ├── User.java
-│   ├── TrPackage.java
-│   ├── AdminPanel.java
-│   └── ...
-├── Data/
-│   ├── userdata.txt
-│   └── packagedata.txt
-├── README.md
-├── LICENSE.txt
-└── ...
+└── TravelMatrix
+    ├── Classes
+        ├── AdminOperations
+        │   ├── PackageManagement
+        │   │   ├── AddPackage.java
+        │   │   ├── ManagePackage.java
+        │   │   ├── PackageOperations.java
+        │   │   └── ShowPackage.java
+        │   └── UserManagement
+        │   │   ├── AddUser.java
+        │   │   ├── EditUser.java
+        │   │   ├── RemoveUser.java
+        │   │   ├── SearchUser.java
+        │   │   └── ShowUsers.java
+        ├── Entity
+        │   ├── TrPackage.java
+        │   └── User.java
+        ├── UI
+        │   ├── AboutUs.java
+        │   ├── Dashboards
+        │   │   ├── AdminDashboard.java
+        │   │   └── UserDashboard.java
+        │   ├── Login.java
+        │   └── Registration.java
+        └── UserOperations
+        │   ├── EditUserdata.java
+        │   ├── ForgetPass.java
+        │   └── UserPayment.java
+    ├── Data
+        ├── packagedata.txt
+        └── userdata.txt
+    ├── Image
+        ├── 1.png
+        ├── 1991026.ai
+        ├── 6156129.ai
+        ├── 6156347.ai
+        ├── 6163714.ai
+        ├── 7580209.ai
+        ├── 7665240.ai
+        ├── AboutUs.png
+        ├── Back.png
+        ├── BackTheme.png
+        ├── BackThemeWhite.png
+        ├── BackWhite.png
+        ├── ForgetPassBG.png
+        ├── FrgPassBg.png
+        ├── Logout.png
+        ├── Main Ui.ai
+        ├── MasterCard.png
+        ├── Travel Matrix Logo.ai
+        ├── TravelMatrixApp.png
+        ├── TravelMatrixLogo.png
+        ├── VisaCard.png
+        ├── addPackage.png
+        ├── adduserPgImg.png
+        ├── bookicon.png
+        ├── bookingmana.png
+        ├── lgnPgImg.png
+        ├── locationPic
+        │   ├── Barca.jpg
+        │   ├── Sydney.jpg
+        │   ├── addadmin2.png
+        │   ├── bus.png
+        │   ├── dhaka.jpg
+        │   ├── london.jpg
+        │   ├── newwork.jpg
+        │   ├── paris.jpg
+        │   ├── photo-1518684079-3c830dcef090.jpg
+        │   ├── rome.jpg
+        │   ├── testreplace.jpg
+        │   └── tokyo.jpg
+        ├── manaPack.png
+        ├── reg.ai
+        ├── regPgImg.png
+        ├── s.png
+        ├── showPackage.png
+        ├── showUsers.png
+        ├── tripicon.png
+        ├── tripmana.png
+        ├── userMana.png
+        ├── userdash.png
+        ├── useredit.png
+        └── usericon.png
+    ├── Interfaces
+        ├── IloginOperation.class
+        └── IloginOperation.java
+    └── Start.java
 
 ---
 
